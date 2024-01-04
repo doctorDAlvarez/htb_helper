@@ -1,0 +1,1 @@
+whatweb -a3 https://TARGET-DOMAIN -v
