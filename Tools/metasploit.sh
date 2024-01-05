@@ -1,3 +1,5 @@
+
+sudo msfconsole
 #Basic
 sysinfo
 
@@ -16,3 +18,5 @@ SESSIONS -i [sessionN]
 
 # Local privEsc
 use post/multi/recon/local_exploit_suggester
+
+#payloads
