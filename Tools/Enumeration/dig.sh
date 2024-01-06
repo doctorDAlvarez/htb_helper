@@ -1,5 +1,4 @@
 # QUERY DNS Records
-
 dig any TARGET [@dns_server]
 dig mx
 dig a
