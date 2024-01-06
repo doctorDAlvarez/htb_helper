@@ -1,11 +1,9 @@
-#Stabilization of shell
-
+#Estabilization
 script /dev/null -c /bin/bash
 CTRL + Z
 stty raw -echo; fg
-Then press Enter twice, and then enter:
+#Then press Enter twice, and then enter:
 export TERM=xterm
-
 
 # Spawn a interactive session with python
 python3 -c 'import pty;pty.spawn("/bin/sh")'
