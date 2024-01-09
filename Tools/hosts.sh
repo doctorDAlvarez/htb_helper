@@ -1,1 +1,0 @@
-echo "10.10.14.242 devvortex.htb" | sudo tee -a /etc/hosts
